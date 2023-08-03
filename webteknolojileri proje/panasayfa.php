@@ -1,4 +1,5 @@
 <?php
+error_reporting(E_ERROR ^ E_NOTICE);
 echo "
 <!DOCTYPE html>
 <html lang='en'>
@@ -35,7 +36,7 @@ echo "
                 <a class='nav-link' href='phakkimda.html'>Hakkımda</a>
             </li>
             <li class='nav-item'>
-                <a class='nav-link' href='#ozgecmis'>Özgeçmiş</a>
+                <a class='nav-link' href='pozgecmis.html'>Özgeçmiş</a>
             </li>
             <li class='nav-item'>
                 <a class='nav-link' href='#sehrim'>Şehrim</a>

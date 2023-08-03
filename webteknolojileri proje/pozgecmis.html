@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .custom-jumbotron {
+            background-color: #e9ecef;
+            padding: 2rem;
+        }
+
+        body {
+            background-color: #8D9990;
+        }
+
+        .carousel-inner img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+
+        .carousel-caption {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Website</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="panasayfa.php">Anasayfa</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="phakkimda.html">Hakkımda</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Özgeçmiş</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sehrim">Şehrim</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#mirasimiz">Mirasımız</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#ilgi-alanlarim">İlgi Alanlarım</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#iletisim">İletişim</a>
+                </li>
+            </ul>
+        </div>
+        <!-- Profil Kutucuğu -->
+        <div class="ml-auto">
+            <div class="navbar-text pr-3">
+                <img src="talhairis.jpeg" alt="Profil Fotoğrafı2" class="img-fluid rounded-circle"
+                    style="max-width: 40px;">
+                <span class="pl-2" text="#kullaniciadi"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main role="main" class="container mt-4">
+        <article>
+            <header>
+                <h1 class="text-center">Hakkımda</h1>
+            </header>
+            <section class="row justify-content-center align-items-center">
+                <div class="col-lg-6">
+                    <p>Adım Talha İris. 2004 yılında Sakarya'nın Adapazarı ilçesinde doğdum. Benden sonra en küçüğüyle aramızda 10 yaş olan 3 ablaya sahibim.
+                        Babam emekli muhasebeci, annem ise ev hanımı. Anaokuluna Karaman'da gittikten sonra ilkokula geçmemle beraber Adapazarının merkezine taşındık.</p>
+                    <p>İlkokulumu Mustafa Kemal Paşa İlkokulunda bitirdikten sonra ilk kez özel okula yani Anka Koleji Ortaokuluna geçtim. Ortaokulumu ortamalama 
+                        bir başarıyla bitirip LGS sınavında %10'luk dilime girerek nitelikli okul seçme hakkını kazandım. Sakarya'nın 4 fen lisesinden biri olan 
+                        Akyazı Fen Lisesinde okumaya hak kazandım. Ortaokul gibi liseyi de ortalama bir başarıyla bitirerek YKS'de 44.483 sıralama yaptım ve 
+                        Sakarya Üniversitesi Bilgisayar Mühendisliği Bölümünü tercih ettim.</p>
+                    <p>Ayrıca çoğu lisede olmak üzere bazı işletmelerde çalışma fırsatım oldu. Lisede; bir dershanede danışma biriminde görev yaptım, 
+                        bir jeotasarım firmasında angarya işleri üstlendim ve bazı zamanlar da bir organizasyon şirketinin düzenlediği organizasyonlarda 
+                        komilik ve garsonluk yaptım. En son olarak da Sakarya'nın işlek bir bölgesinde bulunan bir kuyumcuda çalıştım.</p>
+                    <p>Bundan sonraki hedeflerim ise üniversitenin bana sunduğu erasmus ve staj gibi imkanları olabildiğince kullanmaya çalışmak.</p>
+                </div>
+                <div class="col-lg-6">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="mkpilkokulu.jpg" class="d-block w-100" alt="Slide 1">
+                                <div class="carousel-caption">
+                                    <h5>Mustafa Kemal Paşa İlkokulu</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="ankaortaokulu.jpg" class="d-block w-100" alt="Slide 2">
+                                <div class="carousel-caption">
+                                    <h5>Anka Ortaokulu</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="aegflisesi.jpg" class="d-block w-100" alt="Slide 3">
+                                <div class="carousel-caption">
+                                    <h5>Akyazı Eyyup Genç Fen Lisesi</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="saü.jpeg" class="d-block w-100" alt="Slide 4">
+                                <div class="carousel-caption">
+                                    <h5>Sakarya Üniversitesi</h5>
+                                    <h6>Bilgisayar ve Bilişim Bilimleri Fakültesi</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button"
+                        data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </article>
+</main>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -39,10 +39,10 @@ echo "
                 <a class='nav-link' href='pozgecmis.html'>Özgeçmiş</a>
             </li>
             <li class='nav-item'>
-                <a class='nav-link' href='#sehrim'>Şehrim</a>
+                <a class='nav-link' href='psehrim.html'>Şehrim</a>
             </li>
             <li class='nav-item'>
-                <a class='nav-link' href='#mirasimiz'>Mirasımız</a>
+                <a class='nav-link' href='takimimiz.html'>Takımımız</a>
             </li>
             <li class='nav-item'>
                 <a class='nav-link' href='#ilgi-alanlarim'>İlgi Alanlarım</a>

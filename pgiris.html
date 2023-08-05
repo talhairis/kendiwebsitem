@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <h1 style="color: #4D4949; text-align: center; margin: 8%; font-size: 50px;"><b>Giriş Ekranına Hoşgeldiniz.</b></h1>
+
+        <style>
+            body 
+            {
+                color: #3B3B40; /* Koyu Gri */
+                background-color: #8D9990; /* Açık Gri */
+            }
+            table.tablo 
+            {
+                width: 30%; /* Tablonun genişliği yüzde 30 olacak */
+                height: 25vh; /* Tablonun yüksekliği ekran yüksekliğinin yüzde 25'si olacak */
+                margin: 0 auto; /* Tabloyu yatayda ekran genişliğine göre ortalamak için */
+                border-collapse: collapse;
+                border-spacing: 0;
+                border-radius: 10px;
+                background-color: #3F4D42;
+                position: fixed; /* Tabloyu sabit bir pozisyonda tutar */
+                top: 50%; /* Tablonun üst kenarını ekranın ortasına hizalar */
+                left: 50%; /* Tablonun sol kenarını ekranın ortasına hizalar */
+                transform: translate(-50%, -50%); /* Tabloyu ekranın ortasına taşır */
+            }
+            #mytext 
+            {
+                width: 200px;
+                height: 30px;
+                border-radius: 10px;
+                background-color: #E2E6E3;
+            }
+
+            #mypass 
+            {
+                width: 200px;
+                height: 30px;
+                border-radius: 10px;
+                background-color: #E2E6E3;
+            }
+
+            #mybutton 
+            {
+                width: 100px;
+                height: 25px;
+                border-radius: 10px;
+                background-color: #E2E6E3;
+            }
+
+            #kullaniciadi::placeholder
+            {
+                color: #C9DFF1;
+            }
+
+            #kullaniciadi::placeholder 
+            {
+                color: #C9DFF1;
+            }
+        </style>
+    </head>
+    <body>
+        <form method="post" action="panasayfa.php">
+            <table class="tablo">
+                <tr>
+                    <th style="color: #E2E6E3;">Kullanıcı Adı</th>
+                    <th><input required type="text" id="mytext" name="kullaniciadi" placeholder="ogrno@sakarya.edu.tr" pattern="[gG]\d{9}@sakarya\.edu\.tr" title="Lutfen gecerli bir kullanici adi giriniz. (orn: g(G)999999999@sakarya.edu.tr)"></th>
+                </tr>
+                <tr>
+                    <th style="color: #E2E6E3;">Şifre</th>
+                    <th><input required type="password" id="mypass" name="sifre" placeholder="ogrno" pattern="[gG]\d{9}" title="Lutfen gecerli bir sifre giriniz. (orn: g(G)999999999)"></th>
+                </tr>
+                <tr>
+                    <th colspan="2"><input type="submit" id="mybutton" value="Onayla" name="butononay"></th>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
